@@ -1,0 +1,461 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header style */
+header{
+    display: flex;
+    flex-direction: column;
+    max-height: 340px;
+    width: 100%;
+    background-color: rgb(255,228,0);
+}
+
+/* main header container */
+.header-container{
+    width: 100%;
+    justify-content: center;
+}
+
+.header-container-with-logo-and-number{
+    max-height: 200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* span "Забудьте про вредителей сегодня" */
+.header-span-today{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    margin-right: 100px;
+    text-align: center;
+}
+
+/* main header logo */
+.header-main-logo{
+    max-height: 85px;
+    max-width: 250px;
+}
+
+/* header nubmer list */
+.header-number-list{
+    display: flex;
+    flex-direction: column;
+    opacity: 70%;
+    margin-left: 100px;
+    
+}
+
+/*  header nubmer list span */
+.header-number-list a {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/* header list */
+.header-container-with-list{
+    margin: 30px 0 10px 0;
+    max-height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header list span */
+.header-container-with-list span{
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* main container */
+main{
+    width: 100%;
+}
+/* disinfection container */
+.container-with-disinfection{
+    height: 100vh;
+    background-image: url(image/desinfection.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    
+}
+
+/* guarantee container */
+.container-with-guarantee{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-span-guarantee{
+    color: white;
+    font-weight: bold;
+    padding-left: 25px;
+    font-size: 60px;
+}
+
+.list-guarantee-container{
+    margin-top: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+.list-guarantee-container span{
+    color: yellow;
+    font-weight: 700;
+}
+
+/* consultation form container */
+.container-with-consultation-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-free-application{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.consultation-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-with-consultation-form input {
+    margin-top: 25px;
+    height: 50px;
+    padding: 0 0 0 15px;
+    border: none;
+    outline: none;
+}
+
+.container-with-consultation-form button {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: yellow;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.span-consultation-departure{
+    color: white;
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.span-constultation-free{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* sales container */
+
+.containers-with-sales{
+    background-image: url(/sales-image/sales-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    box-shadow: inset black 0 0 550px;
+}
+
+
+
+.header-containers-with-sales{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.standart-treatment{
+    margin-top: 40px;
+    color: white;
+}
+
+/* container working with us */
+
+.main-container-work-with-us{
+    padding: 40px 0;
+    background-color:yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-count-clien-work-with-us-container{
+}
+
+.span-count-clien-work-with-us-container span{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.list-work-with-us-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.work-with-us-containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    text-align: center;
+    margin: 50px 20px 0 0;
+}
+
+
+.list-work-with-us-container img {
+    height: 120px;
+    width: 100px;
+}
+
+.name-list-bold {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* main container disinfection any variants */
+.disinfection-any-variants-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.disinfection-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    margin: 50px 0 0 0 ;
+    text-align: center;
+}
+
+.disinfection-any-variants-description{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    padding-top: 5px;
+    text-align: center;
+    opacity: 80%;
+    margin: 40px 0;
+}
+
+.image-for-disinfection-any-variants{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+
+
+.image-for-disinfection-any-variants div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-for-disinfection-any-variants img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* main contaner 5 causes */
+.main-container-five-causes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-our-company-and-others-company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.our-company{
+    color: green;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.others-company{
+    color: rgb(252, 45, 45);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.container-with-lists-and-description{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+
+}
+
+
+.list-with-our-company{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-with-content-causes{
+    display: flex;
+    flex-direction: row;
+} 
+
+.container-with-content-causes{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-description-to-causes-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-to-causes-list{
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.header-to-causes-list-description{
+    font-size: 20px;
+    line-height: 1.35;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.special-for-entity{
+    color: orange;
+}
+
+/* certificates-container */
+
+.main-container-certificates{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-certificates-container{
+    text-transform: uppercase;
+    margin: 40px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container-with-slider{
+    background-color: black;
+    width: 33%;
+    height: 100%;
+}
+
+/* footer */
+footer{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer-company-information{
+    background-color: rgb(59,59,59);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-container-with-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 200px;
+    text-align: start;
+    height: 50px;
+    padding-bottom: 50px;
+}
+
+.header-footer-container{
+    font-size: 20px;
+}
+
+.description-footer-container{
+    font-size: 15px;
+    color: rgb(99, 99, 99);
+}
+
+.mail-to-director{
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+}
+
+.footer-with-pay-variants{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+@media screen and (max-width: 1040px) {
+    .header-number-list a {
+
+    }
+}
+
